@@ -1,0 +1,94 @@
+.navbarprop{
+    margin: 50px  50px  0 50px;
+    width: 90%;
+    box-shadow:  0 6px 24px 0 rgba(0, 0, 0, 0.952);
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(161, 161, 161));
+    position: fixed;
+    top: 12px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+   
+
+}
+
+.navbar-nav{
+   
+    width: 100%;
+   
+}
+.nav-item{
+    
+    margin: 20px 4%;
+    width: 100%;
+    
+    
+
+}
+
+.logo{
+    padding: 10px 0 1px 0;
+    margin: 0 4% ;
+    width: 80px;
+    height: 100px;
+  
+
+}
+
+
+
+.nav-link{
+    margin: 20px 4%; 
+    width: 100%;
+   
+    size: 100%;
+}
+
+@media (max-width: 991px){
+    .logo{
+        width: 70px ;
+        height: 70px;
+        margin: 0 0 0 10%;
+
+    }
+    .nav-link{
+        margin: 1px 4%; 
+        width: 90%;
+        
+    }
+    .navbarprop{
+        width: 80%;
+        box-shadow:  0 6px 24px 0 rgba(255, 1, 1, 0.952);
+        background-image: linear-gradient(rgb(250, 70, 85), rgba(58, 38, 5, 0.808));
+       }
+    
+}
+
+footer{
+    
+    background-color: black;
+}
+
+.iconos{
+    
+    width: 35px ;
+}
+
+.contenedor-iconos{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+
+
+.Copyright{
+    font-family:'Courier New', Courier, monospace;
+    margin: 50px 80px 30px  80px;
+}
+    
+.ducati{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
